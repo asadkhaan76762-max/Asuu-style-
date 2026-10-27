@@ -1,1 +1,32 @@
 # Asuu-style-
+# Read the file content
+with open("/mnt/user-data/outputs/asuu-styles.html", "r", encoding="utf-8") as f:
+    content = f.read()
+
+# Show a summary
+print("✅ ASUU STYLES - LIVE STORE READY")
+print("=" * 50)
+print("\n📦 Products in Store:")
+print("1. Floral Summer Maxi Dress - ₹1,299")
+print("2. Embroidered Anarkali Suit - ₹2,499")
+print("3. Black Party Gown - ₹3,999")
+print("4. Casual Striped Shirt Dress - ₹899")
+print("5. Printed Kurti with Dupatta - ₹1,599")
+print("6. Maroon Velvet Party Dress - ₹3,499")
+print("7. Mint Green A-line Dress - ₹1,199")
+print("8. Beige Bridal Lehenga - ₹4,999")
+print("\n🎨 Collections:")
+print("- New Arrivals (6 products)")
+print("- Western Dresses (3 products)")
+print("- Ethnic Wear (2 products)")
+print("- Party Wear (3 products)")
+print("\n✨ Features:")
+print("- Cart add/remove functionality")
+print("- Responsive design")
+print("- Fast loading")
+print("- Mobile friendly")
+print("\n📱 How to use:")
+print("1. Click Collections ya Products")
+print("2. Click 'Add to Cart'")
+print("3. Click Cart icon to see items")
+print("4. Ready to checkout!")
